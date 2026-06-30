@@ -16,8 +16,8 @@ System.out.println("DIGITE SEU NOME:");
 		System.out.println("O NOME DIGITADO FOI:" + nome );
 		
 		System.out.println("DIGITE SUA IDADE:");
-		idade= input.nextInt('\n');
-		
+		idade= input.nextInt();
+		input.nextLine();
 		
 			System.out.println("A IDADE DIGITADA FOI:" + idade );
 			
